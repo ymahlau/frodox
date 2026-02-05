@@ -23,7 +23,7 @@ def binary_grating_heights_1d(
 
     # 1. Create the grating pattern
     n_grating = round(grating_width / dx)
-    x = jnp.arange(n_grating) * dx
+    x = jnp.arange(n_grating) * dx + dx / 2
 
     period = material_width + gap_width
 
