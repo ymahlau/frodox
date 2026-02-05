@@ -1,0 +1,7 @@
+.venv
+outputs
+*.pyc
+uv.lock
+.pytest_cache
+.ruff_cache
+scripts
